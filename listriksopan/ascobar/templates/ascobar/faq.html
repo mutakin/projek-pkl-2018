@@ -1,0 +1,52 @@
+{% extends 'ascobar/base.html' %}
+
+{% block content %}
+	<div class="container">
+		<h1 class="font-weight-light mt-3 mb-3">Frequently Asked Question</h1>
+		<div class="accordion" id="accordionExample">
+		  <div class="card mt-2">
+		    <div class="card-header" id="headingOne">
+		      <h5 class="mb-0">
+		        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+		          <b>Apa itu solar panel ?</b>
+		        </button>
+		      </h5>
+		    </div>
+
+		    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+		      <div class="card-body">
+		        <p>Solar panel merupakan salah satu alternative pembangkit listrik dengan menggunakan sumber energi terbarukan yaitu matahari.</p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="card mt-2">
+		    <div class="card-header" id="headingTwo">
+		      <h5 class="mb-0">
+		        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+		          <b>Apakah solar panel sama dengan solar heater ?</b>
+		        </button>
+		      </h5>
+		    </div>
+		    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+		      <div class="card-body">
+		      	Beda. Solar panel memanfaatkan intensitas radiasi cahaya matahari untuk mengubah menjadi energi listrik. Sedangkan solar heater memanfaatkan panas matahari untuk melakukan pemanasan air.
+		      </div>
+		    </div>
+		  </div>
+		  <div class="card mt-2 mb-2">
+		    <div class="card-header" id="headingThree">
+		      <h5 class="mb-0">
+		        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+		        	<b>Bagaimana solar panel bekerja ?</b>
+		        </button>
+		      </h5>
+		    </div>
+		    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+		      <div class="card-body">
+		      	Intensitas radiasi cahaya matahari diserap oleh solar panel. Solar panel melakukan konversi radiasi matahari menjadi arus listrik searah (DC). Arus DC merupakan arus yang biasa digunakan pada baterai. Arus DC tersebut kemudian menuju inverter. Di inverter dilakukan perubahan arus DC menjadi arus AC. Selain itu, inverter juga melakukan sinkronisasi tegangan, frekuensi agar sama dengan arus dari PLN. Sehingga daya dari solar panel dan PLN dapat bekerja secara parallel melayani beban peralatan konsumen.
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+{% endblock %}

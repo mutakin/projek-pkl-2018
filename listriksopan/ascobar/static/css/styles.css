@@ -1,0 +1,424 @@
+.navbar{
+	height:85px;
+	background-color: #e1e7ec!important;
+	opacity: 0.9;
+	border-bottom: 1px solid #9CAFBA;
+}
+
+
+nav ul li{
+	box-sizing: border-box;
+	font-size: 1rem;
+	border-right: 1.1px solid #999;
+	padding:0 5px;
+}
+
+nav ul li a{
+    box-sizing: border-box;
+}
+
+
+nav ul li:last-child{
+	border: none;
+}
+
+
+
+nav ul li a:hover{
+    border-bottom: 5px solid #20A8A9;
+}
+
+nav ul li a:visited{
+ border-bottom: 5px solid #20A8A9;   
+}
+/*.aktif{
+	font-weight: bold;
+}
+
+*/
+
+
+/* banner utama*/
+#home {
+    height: 750px;
+    background-size: cover;
+    background-image: url(../images/slide2.png);
+    font-size: 16px;
+}
+
+.darken-overlay {
+    padding: 100px 20px !important;
+    padding-top: 150px !important;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.home-container {
+    max-width: 800px;
+}
+
+h1.title {
+    padding-top: 100px;
+    color: white;
+}
+
+h1.title>sup {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    top: -2em;
+}
+
+h1.title>b {
+    font-weight: bold;
+    font-size: 200%;
+    line-height: 100px;
+    transform: scale(.5, 1);
+}
+
+p.description {
+    color: white;
+}
+
+.asco-text-sm {
+    font-size: 13px;
+}
+
+
+/*pricing*/
+
+.pricing-table {
+    margin-top: -130px;
+}
+
+.price {
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 40px;
+}
+
+
+.price span , .price p{
+    font-weight: 500;
+}
+.big {
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.small {
+    color: #fff;
+    font-size: 15px;
+    text-transform: none;
+}
+
+.pricing {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 17px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px 0px #333;
+}
+
+.pricing-title {
+    margin: 0px;
+    padding: 25px 0px;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.default-pricing-button {
+    background: #fff;
+    color: #808080;
+    border-radius: 50px;
+    width: 100%;
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 8px 0px;
+    transition: color .6s;
+}
+
+
+.btn-silver{
+	background: #fff;
+	color: #808080;
+}
+.btn-silver:hover{
+	background: #808080;
+	color:white;
+	border: 2px solid #fff;
+}
+
+.btn-gold{
+	background: #5F4B24;
+	color: #fff;
+}
+.btn-gold:hover{
+	background: #fff;
+	color: #5F4B24;
+	border: 2px solid #5F4B24;
+}
+
+
+.btn-platinum{
+	background: #BD8923;
+	color: #fff;
+}
+.btn-platinum:hover{
+	background: #fff;
+	color: #BD8923;
+	border: 2px solid #BD8923;
+}
+
+.default-pricing-button:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+
+.pricing-silver {
+    background-color: #808080;
+}
+
+.pricing-gold {
+    background-color: #b3914f;
+}
+
+.pricing-platinum {
+    background-color: #527c94;
+    color: #fff;
+}
+
+
+.div-paket-lainnya {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.paket-lainnya {
+    background: transparent;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 25px;
+    border: 1px solid #333;
+    text-transform: uppercase;
+    color: #333;
+}
+
+
+.paket-lainnya:hover{
+	color: black;
+	text-decoration: none;
+}
+
+
+
+/*section 1*/
+.section1 {
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    margin-top: 50px;
+    height: 450px;
+}
+
+.overlay-putih{
+	padding: 150px 100px;
+}
+
+
+
+/*cara kerja*/
+
+
+.carakerja{
+	padding: 30px 15px;
+    font-family: 'Muli', sans-serif;
+}
+
+.cara-kerja {
+    width: 100%;
+    margin-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
+
+/*profile*/
+
+.profil-text{
+	line-height: 1.6;
+	font-size: 18px;
+	margin-bottom: 50px;
+}
+
+
+
+/*footer iklan */
+
+
+.footer-iklan{
+	height: 150px;
+	background: #2e4d60;
+	padding: 30px 20px;
+}
+
+.tertarik{
+	text-align:left;
+	font-size: 70px;
+	float: right;
+	color: #fff;
+	font-style: italic;
+	letter-spacing: 1px;
+	font-weight: 500;
+	padding-top: 10px;
+}
+
+.subfooteriklan{
+	background: #F3CA00;
+	padding: 20px 30px;
+	margin: 10px;
+	border-radius: 10px;
+	color: #2e4d60;
+	font-size: 24px;
+	text-transform: uppercase;
+	line-height: 1;
+	letter-spacing: 2px;
+	text-align:center;
+	font-weight: 500;
+	font-style: italic;
+	box-shadow: 0px 1px 4px 1px #333;
+}
+
+.footer-iklan a:hover{
+	text-decoration: none;
+}
+
+
+
+
+.footer{
+	background: #395F76;
+	padding: 40px 50px;
+}
+
+
+.footer b{
+	color: #9FABB2;
+}
+
+.gotop {
+    color: #333;
+    font-size: 20px;
+    float: right;
+    padding:5px 9px;
+    border: solid 2px #9CAFBA;
+    border-radius: 9px;
+    text-align: center;
+    vertical-align: middle;
+    transition: background-color .5s;
+}
+
+.gotop:hover{
+	background-color: #2e4d60;
+	color:#fff;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+/*base halaman*/
+.nopadding {
+    padding: 0px;
+}
+.banner {
+    min-height: 350px;
+    padding-top: 250px;
+    padding-bottom: 650px;
+    color: #fff;
+}
+.banner-paket {
+    background-image: url(../images/paket_bg.png);
+    background-size: cover;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin: 0px;
+    text-align: left;
+    margin-top: -30px;
+}
+
+
+.text-header1{
+	font-size: 35px;
+	margin-top: 25px;
+}
+
+.text-header2{
+	font-size: 100px;
+    font-weight: 600;
+}
+
+
+.text-header3{
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200;
+}
+
+
+
+
+.buttony {
+    background: #f6d200;
+    border-radius: 50px;
+    border: none;
+    text-transform: uppercase;
+    color: #376f7b;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    font-weight: 900;
+}
+
+
+
+/*projects page*/
+.box { 
+    position: relative;
+    overflow: hidden;
+}
+.overlay {  
+    background:rgba(157, 215, 214, .75);
+    text-align:center;
+    opacity:0;    
+    color: white;
+    width:100%;height:100%; 
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.box:hover {
+    border:1px solid #555;
+    border-radius:5px;
+}
+.box:hover .overlay {
+    opacity:1;
+}
+
